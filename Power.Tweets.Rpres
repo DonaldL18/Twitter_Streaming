@@ -1,0 +1,136 @@
+Time to Tweet
+========================================================
+author: Joel McGuire & Donald Li
+date: April 22, 2018
+autosize: true
+
+
+Introduction to Orienation 
+====================================
+- Research shows that time orientation is related to health behaviors. In positive ways such as moderation of diet, use of drugs, seat belt use, etc. It also has health negative behaviors such as excessive consumption of alcohol, drugs and risky sex. (Henson et al 2006), (Daugherty, Brase 2010). 
+
+- Future orientation has an effect on personal savings. The more future orientated people are the more likely they are to save. While the reverse is true for present orientation. Orientation is measured from a questionare filled out by participants that scores participants on a range of financial topics.  (Jacobs-Lawson & Hershey, 2005). 
+
+- Time orientation also has an effect on savings at a macro level. (Hofstede & Bond, 1988). Using the Chinese as a case study researchers found Asian cultural norms lean towards the avoidance of uncertainty. This leads to an increase in personal savings as to hedge against the future.  (Hofstede et al, 2010).
+
+Time Orientation and Tweets 
+========================================================
+- Future orientation is a dimension of intrapersonal and intercultural psychology
+with ties to health and economic metrics. Evidence suggests it has the capacity
+to predict growth and savings rates on a national level as well as economic and
+health behaviors on an individual scale. 
+
+- By searching for geolocated tweets containing key words related to time orientation users can be classified into future or present orientatied.
+- The frequency of those tweets can give insight onto the temporal orientation of the state.
+
+Tweets for Decesion Making 
+====================================
+- With the ease of gathering large amounts of data, twitter has become very popular in social science. It has been used to study a wide range of topics from HIV rates to instances of crime.
+- 
+
+
+Time Perspective and the Internet 
+====================================
+- Past researchers have gathered an index of words classified by their time orientation, this has been used as a benchmark in many other academic journels.
+-  Although no research has been done to try and analyze geolocated tweets for a more
+granular geographic region. We seek to find if such an index has can to predict factors related to time orientation on a state level. 
+- We hypothosize that that areas with
+relatively future oriented tweets will have higher savings rates. 
+
+- Along with savings rate time orientation could also show cultural change through language, and an ability
+to compare that relationship with macroeconomic indicators.
+
+ This is how we do it 
+====================================
+- Tweets were streamed using the Twitter API (N = 2,007,230) from February
+2018 to April 2018. Collecting millions of geolocated tweets is a non trivial
+endeavor.
+
+- The dictionary of future oriented words was retrieved from LIWC, an index of words cross listed with their respective sentiments.
+GDP growth rate was retrived from the Bureau of Economic Analysis. 
+- Most problematic is the current inability to match any macroeconomic indicator with the twitter sentiment. Since the twitter data is gathered in this period macroeconomic indicators have not yet caught up.
+
+Analysis Strategy 
+====================================
+- Words that have been previously identified as
+relating to a longer time perspective were aggregated per state. 
+- The time index was
+created by counting the amount of future oriented words as a percent of total
+words written in all geolocated tweets in a state. 
+- Even though we do naively regress the index of future orientation on the
+nearest data we have on GDP growth rate, we acknowledge there is little reason
+to suggest they would be related
+
+
+Time Orientation and GDP
+====================================
+![GDP](GDP.png)
+
+
+Time Orientation and GDP
+====================================
+Residual standard error: 0.9035 on 47 degrees of freedom
+
+Multiple R-squared:  0.09388,	Adjusted R-squared:  0.0746 
+
+F-statistic:  4.87 on 1 and 47 DF,  p-value: 0.03225
+
+Time Orientation and SAT Math scores 
+====================================
+![GDP](SAT.png)
+
+Time Orientation and SAT Math scores 
+====================================
+Residual standard error: 43.7 on 46 degrees of freedom
+
+Multiple R-squared:  0.1696,	Adjusted R-squared:  0.1515 
+
+F-statistic: 9.392 on 1 and 46 DF,  p-value: 0.003639
+
+
+Time Orientation and ACT Math scores 
+====================================
+![GDP](Math.png)
+
+Time Orientation and ACT Math scores 
+====================================
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9983 on 45 degrees of freedom
+
+Multiple R-squared:  0.7644,	Adjusted R-squared:  0.7487 
+
+F-statistic: 48.66 on 3 and 45 DF,  p-value: 3.593e-14
+
+Time Orientation and Savings
+====================================
+![GDP](Savings.png)
+
+Time Orientation and ACT Savings
+====================================
+Residual standard error: 9.825 on 45 degrees of freedom
+
+Multiple R-squared:  0.3221,	Adjusted R-squared:  0.2769 
+
+F-statistic: 7.126 on 3 and 45 DF,  p-value: 0.0005123
+
+Mo tweets mo Problems 
+====================================
+- There is not any data for savings rate on the state level. Alternatives:
+Growth in investment related industry, financial services perhaps, what
+about change in personal consumption? Venture capital on the metropolitan
+level?
+
+- Each word is not weighted in accordance with its frequency.
+
+-There is no apparent relationship between the growth rate of the 3rd
+Quarter of 2017 and the future sentiment index of (mostly) the 2nd quarter
+of 2018. 
+
+Results
+====================================
+
+
+States with large metropolitan populations appear less future oriented,
+other than that, who knows?
+
